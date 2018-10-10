@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_90px"
+        android:background="@color/button_text_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/top_50px"
+            android:text="@string/profile"
+            android:textColor="@color/white"
+            android:textSize="@dimen/top_50px"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20">
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/top_50px"
+            android:background="@color/transparent"
+            android:padding="0.0dp"
+            android:src="@drawable/btn_close"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/font_30px"
+        android:layout_marginLeft="@dimen/top_50px">
+
+
+        <kr.co.digitalanchor.pangchat.utils.FadeInNetworkImageView
+            android:id="@+id/photo"
+            android:layout_width="@dimen/photo_320px"
+            android:layout_height="@dimen/photo_320px"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_photo"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/top_20px"
+            android:layout_marginRight="@dimen/top_50px">
+
+            <Button
+                android:id="@+id/btn_gallery"
+                android:layout_width="@dimen/intro_width_250px"
+                android:layout_height="@dimen/top_50px"
+                android:textColor="@color/button_text_color"
+                android:textSize="@dimen/button_text_size_35px"
+                android:text="@string/gallery"
+                android:background="@drawable/button"
+                android:padding="0.0dp"
+                />
+
+            <Button
+                android:id="@+id/btn_camera"
+                android:layout_width="@dimen/intro_width_250px"
+                android:layout_height="@dimen/top_50px"
+                android:textColor="@color/button_text_color"
+                android:textSize="@dimen/button_text_size_35px"
+                android:text="@string/camera"
+                android:background="@drawable/button"
+                android:padding="0.0dp"
+                android:layout_marginTop="@dimen/top_20px"/>
+
+            <Spinner
+                android:id="@+id/subjectSpinner"
+                android:layout_width="@dimen/intro_width_250px"
+                android:layout_height="@dimen/top_50px"
+                android:spinnerMode="dialog"
+                android:background="@drawable/select_back"
+                android:padding="0.0dp"
+                android:layout_marginTop="@dimen/top_20px"/>
+
+            <Spinner
+                android:id="@+id/nationSpinner"
+                android:layout_width="@dimen/intro_width_250px"
+                android:layout_height="@dimen/top_50px"
+                android:spinnerMode="dialog"
+                android:background="@drawable/select_back"
+                android:padding="0.0dp"
+                android:layout_marginTop="@dimen/top_20px"/>
+
+            <Spinner
+                android:id="@+id/regionSpinner"
+                android:layout_width="@dimen/intro_width_250px"
+                android:layout_height="@dimen/top_50px"
+                android:spinnerMode="dialog"
+                android:background="@drawable/select_back"
+                android:padding="0.0dp"
+                android:layout_marginTop="@dimen/top_20px"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_60px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/top_20px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textColorHint="@color/button_text_color"
+            android:id="@+id/edit_nickname"
+            android:layout_width="@dimen/photo_320px"
+            android:layout_height="@dimen/top_50px"
+            android:hint="@string/nick_name"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/font_30px"
+            android:background="@drawable/select_back"
+            android:paddingLeft="@dimen/top_20px"
+            android:paddingTop="0.0dp"
+            android:paddingBottom="0.0dp"
+            android:paddingRight="0.0dp"
+            />
+
+        <Button
+            android:id="@+id/btn_nick_name_dup"
+            android:layout_width="@dimen/button_width_200px"
+            android:layout_height="@dimen/top_50px"
+            android:background="@drawable/button"
+            android:padding="0.0dp"
+            android:text="@string/duplicate"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/button_text_size_35px"
+            android:layout_marginLeft="@dimen/top_70px"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_60px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/top_20px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editID"
+            android:textColorHint="@color/button_text_color"
+            android:layout_width="@dimen/photo_320px"
+            android:layout_height="@dimen/top_50px"
+            android:hint="@string/identification"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/font_30px"
+            android:background="@drawable/select_back"
+            android:paddingLeft="@dimen/top_20px"
+            android:paddingTop="0.0dp"
+            android:paddingBottom="0.0dp"
+            android:paddingRight="0.0dp"
+            android:editable="false"
+            />
+
+        <Button
+            android:id="@+id/btn_id_dup"
+            android:layout_width="@dimen/button_width_200px"
+            android:layout_height="@dimen/top_50px"
+            android:background="@drawable/button"
+            android:padding="0.0dp"
+            android:text="@string/duplicate"
+            android:textSize="@dimen/button_text_size_35px"
+            android:textColor="@color/button_text_color"
+            android:layout_marginLeft="@dimen/top_70px"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/font_30px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_passwd"
+            android:background="@drawable/select_back"
+            android:layout_width="@dimen/box_600px"
+            android:layout_height="@dimen/top_50px"
+            android:hint="@string/password"
+            android:textColorHint="@color/button_text_color"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/font_30px"
+            android:paddingLeft="@dimen/top_20px"
+            android:paddingBottom="0.0dp"
+            android:paddingTop="0.0dp"
+            android:paddingRight="0.0dp"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/font_30px"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/job_spinner"
+            android:layout_width="@dimen/box_600px"
+            android:layout_height="@dimen/top_50px"
+            android:spinnerMode="dialog"
+            android:padding="0.0dp"
+            android:background="@drawable/select_back">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/font_30px"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/ageSpinner"
+            android:layout_width="@dimen/button_290px"
+            android:layout_height="@dimen/top_50px"
+            android:spinnerMode="dialog"
+            android:padding="0.0dp"
+            android:background="@drawable/select_back"
+            />
+
+        <Spinner
+            android:layout_marginLeft="@dimen/top_20px"
+            android:id="@+id/sexSpinner"
+            android:layout_width="@dimen/button_290px"
+            android:layout_height="@dimen/top_50px"
+            android:spinnerMode="dialog"
+            android:padding="0.0dp"
+            android:background="@drawable/select_back"
+            android:clickable="false"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/font_30px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/button_width_200px"
+            android:layout_height="@dimen/top_50px"
+            android:text="@string/interest"
+            android:textSize="@dimen/font_30px"
+            android:textColor="@color/button_text_color"
+            android:padding="0.0dp"
+            />
+
+        <Spinner
+            android:layout_marginLeft="@dimen/top_20px"
+            android:id="@+id/interest_age"
+            android:layout_width="@dimen/button_180px"
+            android:layout_height="@dimen/top_50px"
+            android:spinnerMode="dialog"
+            android:padding="0.0dp"
+            android:background="@drawable/select_back"
+            />
+
+        <Spinner
+            android:layout_marginLeft="@dimen/top_20px"
+            android:id="@+id/interest_sex"
+            android:layout_width="@dimen/button_180px"
+            android:layout_height="@dimen/top_50px"
+            android:spinnerMode="dialog"
+            android:padding="0.0dp"
+            android:background="@drawable/select_back"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="@dimen/box_600px"
+        android:layout_height="@dimen/top_70px"
+        android:background="@drawable/button_blue"
+        android:textSize="@dimen/button_text_size_35px"
+        android:textColor="@color/white"
+        android:text="@string/confirm"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/font_30px"
+        android:layout_marginBottom="@dimen/top_30px"
+        android:padding="0.0dp"/>
+
+</LinearLayout>

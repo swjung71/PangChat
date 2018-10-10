@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-89368149-1</string>
+    <string name="ga_appName">PangChat</string>
+    <string name="ga_appVersion">@string/app_version</string>
+    <string name="ga_logLevel">warning</string>
+    <integer name="ga_dispatchPeriod">1800</integer>
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <screenName name="kr.co.digitalanchor.pangchat.act.AppInfoActivity">AppInfoActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.IDPWActivity">IDPWActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.IntroActivity">IntroActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.MainActivity">MainActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.MyProfileActivity">MyProfileActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.NoticeActivity">NoticeActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.SignupActivity">SignupActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.VideoChatActivity">VideoChatActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.act.WaitingActivity">WaitingActivity</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.BuyDialog">BuyDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.LoginRegDialog">LoginRegDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.MainDialog">MainDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.ProfileDialog">ProfileDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.ReviewDialog">ReviewDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.SearchDialog">SearchDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.model.Withdraw">Withdraw</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.CityDialog">CityDialog</screenName>
+    <screenName name="kr.co.digitalanchor.pangchat.dialog.ManWomanDialog">ManWomanDialog</screenName>
+</resources>

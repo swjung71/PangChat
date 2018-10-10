@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kr.co.digitalanchor.pangchat.frag.MemberFragment"
+    android:background="@color/intro_background">
+    <GridView
+        android:layout_marginTop="@dimen/top_50px"
+        android:layout_marginLeft="@dimen/top_30px"
+        android:layout_marginRight="@dimen/top_30px"
+        android:layout_marginStart="@dimen/top_50px"
+        android:id="@+id/member_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="@dimen/top_30px"
+        android:verticalSpacing="@dimen/top_30px"
+        android:numColumns="3"
+        android:listSelector="@color/transparent"
+        android:scrollbars="vertical"
+        />
+</FrameLayout>

@@ -1,0 +1,24 @@
+Release check list
+
+1. PCApplication.java 에서  Logger.init("PangChat").setLogLevel(LogLevel.FULL).hideThreadInfo();에서
+LogLevel.NONE으로 변경
+
+2. 실서버로 바꾸기 --
+
+3. Key 바꾸기 --
+
+4. 개인정보 정책 변경 --
+
+pangchat
+GCM xiangit5432@gmail.com, Youngchat 이용
+google analytics ceo.pangchat@gmail.com
+
+- 중앙 버튼 눌렀을 때 update하는 것 포함
+- 소리도 나게 변경
+
+Notice
+{"msg":"버그를 잡았으니 업데이트 부탁드려요","nationalCode":"kr"}
+
+버그
+{pangchat is_off = 2인데 request를 하고 종료하는 경우 문제 해결}
+

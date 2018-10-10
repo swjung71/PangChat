@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layer1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <kr.co.digitalanchor.pangchat.view.PlayRTCVideoViewGroup
+            android:id="@+id/videoarea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#e0e0e0">
+            <!-- v2.2.6 xml 지원 -->
+            <kr.co.digitalanchor.pangchat.view.RemoteVideoView
+                android:id="@+id/remote_video"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="visible" />
+
+            <kr.co.digitalanchor.pangchat.view.LocalVideoView
+                android:id="@+id/local_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:visibility="visible"/>
+
+        </kr.co.digitalanchor.pangchat.view.PlayRTCVideoViewGroup>
+
+    </RelativeLayout>
+</RelativeLayout>

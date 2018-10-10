@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <kr.co.digitalanchor.pangchat.view.PlayRTCVideoViewGroup
+        android:id="@+id/videoarea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#e0e0e0">
+        <!-- v2.2.6 xml 지원 -->
+        <kr.co.digitalanchor.pangchat.view.RemoteVideoView
+            android:id="@+id/remote_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" />
+
+        <kr.co.digitalanchor.pangchat.view.LocalVideoView
+            android:id="@+id/local_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" />
+    </kr.co.digitalanchor.pangchat.view.PlayRTCVideoViewGroup>
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/chat_footer"
+        >
+
+        <Button
+            android:id="@+id/btn_end"
+            android:layout_width="@dimen/top_120px"
+            android:layout_height="@dimen/top_120px"
+            android:background="@drawable/round_button"
+            android:text="@string/end"
+            android:textColor="@color/white"
+            android:textSize="@dimen/button_text_size_35px"
+            android:padding="0.0dp"
+            android:layout_centerInParent="true"
+            />
+
+        <Button
+            android:id="@+id/btn_friend"
+            android:layout_width="@dimen/tab_bar_150px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_20px"
+            android:background="@color/transparent"
+            android:drawablePadding="1dp"
+            android:drawableTop="@drawable/friend_selected"
+            android:padding="0.0dp"
+            android:text="@string/friend"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_30px"
+            android:layout_alignParentRight="true"
+            />
+
+        <Button
+            android:id="@+id/btn_like"
+            android:layout_width="@dimen/tab_bar_150px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/top_20px"
+            android:background="@color/transparent"
+            android:drawablePadding="2dp"
+            android:drawableTop="@drawable/img_like"
+            android:padding="0.0dp"
+            android:text="@string/like"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_30px"
+            android:layout_toLeftOf="@id/btn_friend"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <!-- from here my code -->
+    <dimen name="top_bar_160px">53.33dp</dimen>
+    <dimen name="tab_bar_150px">50dp</dimen>
+
+    <dimen name="tab_bar_174px">58dp</dimen>
+    <dimen name="action_bar_310px">103.33dp</dimen>
+    <dimen name="font_30px">10dp</dimen>
+    <dimen name="padding_bottom_24px">8dp</dimen>
+    <dimen name="top_30px">10dp</dimen>
+    <dimen name="top_50px">16.67dp</dimen>
+    <dimen name="top_40px">13.33dp</dimen>
+    <dimen name="top_20px">6.67dp</dimen>
+    <dimen name="top_25px">8.335dp</dimen>
+    <dimen name="top_70px">23.33dp</dimen>
+    <dimen name="top_60px">20dp</dimen>
+    <dimen name="top_90px">30dp</dimen>
+    <dimen name="icon_text_height">30dp</dimen>
+    <dimen name="icon_text_width">48.67dp</dimen>
+    <dimen name="button_text_size_35px">11.67dp</dimen>
+    <dimen name="button_width_190px">63.33dp</dimen>
+    <dimen name="button_width_200px">66.67dp</dimen>
+    <dimen name="button_left_margin_15px">5dp</dimen>
+    <dimen name="photo_320px">106.67dp</dimen>
+    <dimen name="box_380px">126.67dp</dimen>
+    <dimen name="box_600px">200dp</dimen>
+    <dimen name="box_640px">213.33dp</dimen>
+    <dimen name="box_670px">223.33dp</dimen>
+    <dimen name="box_690px">230dp</dimen>
+    <dimen name="box_750px">250dp</dimen>
+    <dimen name="button_180px">60dp</dimen>
+    <dimen name="intro_width_250px">83.33dp</dimen>
+    <dimen name="intro_height_260px">86.67dp</dimen>
+    <dimen name="button_290px">96.67dp</dimen>
+    <dimen name="top_18px">6dp</dimen>
+    <dimen name="top_120px">40dp</dimen>
+    <dimen name="profile_300px">100dp</dimen>
+    <dimen name="waiting_backgroud">326.67dp</dimen>
+    <dimen name="wating_circle">150dp</dimen>
+    <dimen name="waiting_265px">88.33dp</dimen>
+    <dimen name="waiting_botton_215px">71.67dp</dimen>
+</resources>

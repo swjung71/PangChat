@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jobs">
+        <item>@string/job_selection</item>
+        <item>@string/student</item>
+        <item>@string/arts</item>
+        <item>@string/bank</item>
+        <item>@string/office</item>
+        <item>@string/IT</item>
+        <item>@string/design</item>
+        <item>@string/constructor</item>
+        <item>@string/entertainment</item>
+        <item>@string/management</item>
+        <item>@string/laws</item>
+        <item>@string/doctor</item>
+        <item>@string/army</item>
+        <item>@string/politician</item>
+        <item>@string/marketing</item>
+        <item>@string/engineer</item>
+        <item>@string/logistic</item>
+        <item>@string/etc</item>
+    </string-array>
+
+    <string-array name="sex">
+        <item>@string/man</item>
+        <item>@string/woman</item>
+    </string-array>
+
+    <string-array name="age">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+    </string-array>
+
+    <string-array name="nation">
+        <item>@string/korea</item>
+        <item>@string/japan</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>서울</item><!-- 0 -->
+        <item>부산</item><!-- 1 -->
+        <item>광주</item><!-- 2 -->
+        <item>경기</item><!-- 3 -->
+        <item>인천</item><!-- 4 -->
+        <item>충청</item><!-- 5 -->
+        <item>대전</item><!-- 6 -->
+        <item>강원</item><!-- 7 -->
+        <item>전라</item><!-- 8 -->
+        <item>경상</item><!-- 9 -->
+        <item>대구</item><!-- 10 -->
+        <item>울산</item><!-- 11 -->
+        <item>제주</item><!-- 12 -->
+    </string-array>
+
+
+    <!--일본 -->
+    <string-array name="region1">
+        <item>@string/Kamakura</item>
+        <item>@string/Kobe</item>
+        <item>@string/Nagoya</item>
+        <item>@string/Nara</item>
+        <item>@string/Niikata</item>
+        <item>@string/Nikko</item>
+        <item>@string/Tokyo</item>
+        <item>@string/Sapporo</item>
+        <item>@string/Osaka</item>
+        <item>@string/Yokohama</item>
+        <item>@string/Hakone</item>
+        <item>@string/Fukuoka</item>
+        <item>@string/Hiroshima</item>
+        <item>@string/Himeji</item>
+        <item>@string/Kagawa_ken</item>
+        <item>@string/Kagoshima_Prefecture</item>
+        <item>@string/Kanagawa_ken</item>
+        <item>@string/Kochiken</item>
+        <item>@string/Kyoto_Prefecture</item>
+        <item>@string/Kumamoto_ken</item>
+        <item>@string/Gunma_ken</item>
+        <item>@string/Gifu_ken</item>
+        <item>@string/Nagano_ken</item>
+        <item>@string/Nagasaki_ken</item>
+        <item>@string/Nara_Prefecture</item>
+        <item>@string/Niigata_ken</item>
+        <item>@string/Toyama_ken</item>
+        <item>@string/Tochigi_ken</item>
+        <item>@string/Tokushima_ken</item>
+        <item>@string/Tottori_ken</item>
+        <item>@string/Miyagi_ken</item>
+        <item>@string/Miyazaki_ken</item>
+        <item>@string/Mie</item>
+        <item>@string/Saga_ken</item>
+        <item>@string/Saitama_ken</item>
+        <item>@string/Shiga</item>
+        <item>@string/Shimane_ken</item>
+        <item>@string/Shizuoka_ken</item>
+        <item>@string/Aomori_ken</item>
+        <item>@string/Aichi_ken</item>
+        <item>@string/Akita_ken</item>
+        <item>@string/Yamagata_ken</item>
+        <item>@string/Yamaguchi_ken</item>
+        <item>@string/Yamanashi_ken</item>
+        <item>@string/Ehime_ken</item>
+        <item>@string/OsakaPrefecture</item>
+        <item>@string/Ōita_ken</item>
+        <item>@string/okayama_ken</item>
+        <item>@string/Okinawa_ken</item>
+        <item>@string/waka_ken</item>
+        <item>@string/Ibaraki_ken</item>
+        <item>@string/Ishikawa_ken</item>
+        <item>@string/Iwate_ken</item>
+        <item>@string/Chiba_ken</item>
+        <item>@string/hokkaido</item>
+        <item>@string/Hyogo</item>
+        <item>@string/Fukushima_ken</item>
+        <item>@string/Fukuoka_ken</item>
+        <item>@string/Fukui_Prefecture</item>
+        <item>@string/Hiroshima_ken</item>
+
+
+    </string-array>
+
+    <string-array name="subject">
+        <item>@string/fun</item>
+        <item>@string/date</item>
+        <item>@string/cool</item>
+        <item>@string/knoweachother</item>
+        <item>@string/counsel</item>
+        <item>@string/alcohol</item>
+    </string-array>
+
+    <string-array name="interest_age">
+        <item>@string/_10s</item>
+        <item>@string/_20s</item>
+        <item>@string/_30s</item>
+        <item>@string/_40s</item>
+        <item>@string/_50s</item>
+    </string-array>
+
+</resources>

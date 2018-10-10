@@ -1,0 +1,78 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "kr.co.digitalanchor.pangchat"
+        /* sk 화상 통신 4.0.3 이상*/
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 12
+        versionName "1.1.6"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("signature/pangChat")
+            storePassword "123456"
+            keyAlias "drimi parent"
+            keyPassword "123456"
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+
+    buildTypes {
+        release {
+
+            lintOptions {
+                disable 'MissingTranslation'
+            }
+
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            /*applicationVariants.all { variant ->
+                variant.outputs.each {
+                    output ->
+                        def file = output.outputFile
+                        output.outputFile = new File(file.parent,
+                                file.name.replace("app-release", "pangchat-release-" + defaultConfig.versionName))
+                }
+            }*/
+        }
+    }
+    useLibrary  'org.apache.http.legacy'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.2.1'
+    compile 'com.android.support:design:23.2.1'
+    compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.orhanobut:logger:1.10'
+    compile 'com.android.volley:volley:1.0.0'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.okhttp3:okhttp:3.4.1'
+    compile "com.google.android.gms:play-services-gcm:9.2.0"
+    compile 'com.robbypond:material-dialogs:1.0.0'
+    compile 'com.nineoldandroids:library:2.4.0+'
+    compile project(':android-crop-master')
+
+    compile('org.apache.httpcomponents:httpmime:4.3.6') {
+        exclude module: "httpclient"
+    }
+    compile('org.apache.httpcomponents:httpcore:4.+') {
+        exclude module: "httpclient"
+    }
+    compile 'com.google.android.gms:play-services-analytics:9.2.0'
+
+}

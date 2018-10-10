@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_app_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!-- top -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_160px"
+        android:background="@color/font_transparent"
+        android:orientation="horizontal"
+        android:weightSum="13">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/top_50px"
+            android:background="@color/transparent"
+            android:drawableLeft="@drawable/img_top_arrow"
+            android:drawablePadding="10dp"
+            android:text="@string/app_info"
+            android:textColor="@color/white"
+            android:textSize="@dimen/top_60px"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="12"></LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/font_30px"
+            android:layout_marginTop="@dimen/top_70px"
+            android:layout_weight="1"
+            android:background="@color/transparent"
+            android:padding="0.0dp"
+            android:src="@drawable/img_top_menu" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/main_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_big"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/top_50px"
+        android:id="@+id/versionText"
+        android:layout_below="@id/main_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/button_text_size_35px"
+        android:textColor="@color/button_text_color"
+        android:text="@string/current_version"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_marginTop="@dimen/top_50px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginRight="@dimen/top_50px"
+        android:layout_below="@id/versionText"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_90px"
+        android:text="@string/update_app"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text_size_35px"
+        android:background="@drawable/button_blue"
+        android:gravity="center"/>
+
+</RelativeLayout>

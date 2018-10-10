@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <kr.co.digitalanchor.pangchat.utils.FadeInNetworkImageView
+        android:layout_width="@dimen/profile_300px"
+        android:layout_height="@dimen/profile_300px"
+        android:scaleType="fitXY"
+        android:id="@+id/network_image"
+        android:background="@drawable/photo_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_on_air"
+        android:id="@+id/is_onAir"
+        android:layout_gravity="right|top"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/top_20px"
+        android:layout_marginRight="@dimen/top_20px"
+        android:layout_alignRight="@+id/network_image"
+        android:layout_alignEnd="@+id/network_image" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_70px"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/network_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/network_image"
+        android:layout_alignEnd="@+id/network_image"
+        >
+        <TextView
+            android:background="@color/black_transparent"
+            android:id="@+id/pangchat_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/top_25px"
+            android:text="김영란 (여)"
+            android:layout_below="@+id/network_image"
+            android:layout_toLeftOf="@+id/is_onAir"
+            android:layout_toStartOf="@+id/is_onAir"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+        <TextView
+            android:background="@color/black_transparent"
+            android:id="@+id/pangchat_text_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/top_20px"
+            android:text="서울"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_90px"
+        android:background="@color/button_text_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/top_50px"
+            android:text="@string/notice"
+            android:textColor="@color/white"
+            android:textSize="@dimen/top_50px"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20">
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/top_50px"
+            android:background="@color/transparent"
+            android:padding="0.0dp"
+            android:src="@drawable/btn_close"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="@dimen/top_50px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textPartial"
+            android:layout_marginLeft="@dimen/top_20px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/call_guide"
+            android:textSize="@dimen/top_60px"
+            android:textColor="@color/button_text_color"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/top_50px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginRight="@dimen/top_50px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/intro_background">
+
+        <TextView
+            android:padding="@dimen/font_30px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/call_guide_detail_header"
+            android:textColor="@color/button_text_color"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/top_50px"/>
+
+        <TextView
+            android:id="@+id/textPartial2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/font_30px"
+            android:text="@string/call_guide_detail2"
+            android:textColor="@color/button_text_color"
+            android:textSize="@dimen/top_50px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_marginRight="@dimen/top_50px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginTop="@dimen/font_30px"
+        android:layout_marginBottom="@dimen/font_30px"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_120px"
+        android:background="@drawable/button_blue"
+        android:text="@string/call_start"
+        android:textSize="@dimen/top_70px"
+        android:textColor="@color/white"
+        android:padding="0.0dp"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

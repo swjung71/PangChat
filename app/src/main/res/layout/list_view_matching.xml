@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="@dimen/intro_width_250px"
+    android:background="@color/intro_background">
+
+    <kr.co.digitalanchor.pangchat.view.RoundedNetworkImageView
+        android:id="@+id/rounded_image"
+        android:layout_width="@dimen/tab_bar_150px"
+        android:layout_height="@dimen/tab_bar_150px"
+        android:layout_marginLeft="@dimen/top_50px"
+        android:layout_marginBottom="@dimen/top_50px"
+        android:layout_marginTop="@dimen/top_50px"
+        android:layout_marginRight="@dimen/top_50px"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="@dimen/box_600px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|center_vertical">
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디: 서울 : 남30세"
+            android:textColor="@color/matching_name"
+            android:textSize="@dimen/button_text_size_35px"
+            />
+        <TextView
+            android:id="@+id/chat_time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2016/08/11 18:13:38"
+            android:textSize="@dimen/button_text_size_35px"
+            android:textColor="@color/button_text_color"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/top_60px"
+        android:background="@drawable/button_blue"
+        android:text="@string/delete"
+        android:textSize="@dimen/font_30px"
+        android:padding="0.0dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="@dimen/top_50px"
+        />
+
+</LinearLayout>

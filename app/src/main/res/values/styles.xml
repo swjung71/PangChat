@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PangChatTheme" parent="AppTheme">
+        <item name="colorAccent">@android:color/transparent</item>
+    </style>
+
+    <style name="PangChatTheme.AppBarOverlay" parent="AppTheme.AppBarOverlay">
+        <item name="colorPrimary">@color/top_bar</item>
+        <item name="android:height">@dimen/action_bar_310px</item>
+        <item name="colorAccent">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/font_30px</item>
+    </style>
+
+    <style name="PangChatTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="PangChatTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="PangChatTheme.Dialog" parent="Theme.AppCompat.Dialog.Alert" >
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="PangChatTheme.StyleDialog.Over23" parent="Theme.AppCompat.Light.Dialog.Alert" >
+        <item name="android:windowNoDisplay">true</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>

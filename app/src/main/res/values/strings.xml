@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">팡챗</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="name">팡챗</string>
+
+    <!-- TODO: Start from here-->
+    <string name="chatting">채팅</string>
+    <string name="member">멤버</string>
+    <string name="match">매칭기록</string>
+    <string name="friend">친구</string>
+    <string name="call">랜덤통화</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="network_error">network이 불안정합니다.</string>
+    <string name="network_turn_off">네트워크가 꺼져있습니다. 네트워크 상태를 확인하시고 앱을 다시 시작해주세요.</string>
+    <string name="alarm">알 림</string>
+    <string name="back">뒤로가기</string>
+    <string name="bucket">장바구니</string>
+    <string name="like">좋아요</string>
+    <string name="man_woman">남녀</string>
+    <string name="nation_wide">전국</string>
+    <string name="search">찾기</string>
+    <string name="title_activity_video_chat">VideoChatActivity</string>
+    <string name="register">회원 가입 </string>
+    <string name="profile_mod">프로필 수정</string>
+    <string name="intro_hint">자기소개</string>
+    <string name="job_hint">직업</string>
+    <string name="age">나이</string>
+    <string name="sex">성별</string>
+    <string name="city">지역</string>
+    <string name="nick_name">닉네임</string>
+    <string name="confirm">확인</string>
+    <string name="cancel">취소</string>
+    <string name="login">로그인</string>
+    <string name="search_ID_PW">ID/PW 찾기</string>
+    <string name="logout">로그아웃</string>
+    <string name="searchID">ID찾기</string>
+    <string name="searchPW">PW찾기</string>
+    <string name="notice">알림</string>
+    <string name="policy_agree">이용약관에 동의합니다.</string>
+    <string name="privacy_agree">개인정보처리방침 동의.</string>
+    <string name="no_phone_num">전화번호가 없으면 가입이 불가능합니다.</string>
+    <string name="alreay_reg_phone">해당 기기는 이미 가입되었습니다.</string>
+    <string name="withdraw">회원탈퇴</string>
+    <string name="notices">공지사항</string>
+    <string name="app_info">앱정보</string>
+    <string name="duplicate">중복확인</string>
+    <string name="see_agree">약관보기</string>
+    <string name="see_privacy">개인정보처리방침</string>
+    <string name="identification">아이디</string>
+    <string name="password">패스워드</string>
+    <string name="profile">프로필</string>
+    <string name="search_nickname">닉네임 검색</string>
+    <string name="delete">삭제</string>
+    <string name="age_end">세</string>
+    <string name="num_end">개</string>
+    <string name="human_num_end">명</string>
+    <string name="delete_success">성공적으로 매칭기록을 삭제하였습니다.</string>
+    <string name="end">종료</string>
+    <string name="success_add_friend">친구로 등록하였습니다.</string>
+    <string name="already_friend">"이미 등록된 친구입니다"</string>
+
+    <string name="gallery">사진:갤러리</string>
+    <string name="camera">사진:카메라</string>
+    <string name="job_selection">직업선택</string>
+    <string name="student">학생</string>
+    <string name="arts">예술/뮤지컬/작가</string>
+    <string name="bank">은행/금융/부동산</string>
+    <string name="office">사무/관리</string>
+    <string name="IT">IT/컴퓨터/통신</string>
+    <string name="design">디자인</string>
+    <string name="constructor">건설/제조업</string>
+    <string name="entertainment">엔터테이먼트</string>
+    <string name="management">경영/매니지먼트</string>
+    <string name="laws">법학/법률서비스</string>
+    <string name="doctor">의학/건강</string>
+    <string name="army">군인</string>
+    <string name="politician">정치/정부</string>
+    <string name="marketing">영업/마케팅</string>
+    <string name="engineer">엔지니어/과학/기술</string>
+    <string name="logistic">수송/항공</string>
+    <string name="etc">기타</string>
+    <string name="man">남자</string>
+    <string name="woman">여자</string>
+    <string name="no_recode">기록없음</string>
+    <string name="waiting">화상채팅 요청중</string>
+    <string name="request_chat">로부터 화상채팅을 요청받았습니다. \n\n 화면 캡쳐 방지기능이 있으니 안심하고 이용하십시오</string>
+
+    <string name="fun">즐거운 대화</string>
+    <string name="date">데이트</string>
+    <string name="cool">쿨한관계</string>
+    <string name="knoweachother">연예</string>
+    <string name="counsel">상담하기</string>
+    <string name="alcohol">술친구</string>
+
+
+    <string name="login_reg">로그인/회원가입 </string>
+    <string name="alreay_user">회원이신가요?</string>
+    <string name="not_user">회원이 아니신가요?</string>
+    <string name="alert_no_phone_number">전화번호가 없으면 가입이 불가능합니다.</string>
+    <string name="withdraw_info">회원탈퇴시 동일한 아이디로 재가입이 불가능하며, 회원 계정에 속한 모든 정보는 삭제됩니다.
+    또한, 사용한 유료이용정보를 복구할 수 없으며, 환불되지 않습니다.
+    \n\n
+    회원 탈퇴 하시겠습니까? </string>
+
+    <string name="review_detail">구글플레이에 리뷰를 작성하시면 무료 기간을 더 드립니다. 작성하시겠습니까? </string>
+    <string name="accept">수락</string>
+    <string name="reject">거절</string>
+    <string name="review_title">리뷰쓰고 무료기간 받기</string>
+
+    <string name="buy_title">이용권구매</string>
+    <string name="buy_1_month">1개월 이용권: 9,900원</string>
+    <string name="buy_3_month">3개월 이용권: 24,900원(5,000원 할인)</string>
+    <string name="buy_5_month">5개월 이용권: 39,000원(10,000원 할인)</string>
+    <string name="buy_same_interesting">관심사가 비슷한 이성 소개: 4,900원 (1달간 유효)</string>
+    <string name="buy_top">상위 5%의 이성 소개:9,900원 (1달간 유효)</string>
+    <string name="buy">결제</string>
+
+    <string name="error_no_ID">ID를 입력하세요.</string>
+    <string name="error_no_image">이미지를 선택하십시오</string>
+    <string name="error_no_subject">주제를 입력하세요.</string>
+    <string name="error_no_nickName">닉네임을 입력하세요.</string>
+    <string name="error_no_passwd">비밀번호를 입력하세요.</string>
+    <string name="error_no_job">직업을 입력하세요.</string>
+    <string name="error_no_age">나이를 입력하세요.</string>
+    <string name="error_no_sex">성별을 입력하세요.</string>
+    <string name="error_no_city">지역을 입력하세요.</string>
+    <string name="error_no_nation">나라를 입력하세요.</string>
+    <string name="error_no_interest_age">관심 나이대를 입력하세요.</string>
+    <string name="error_no_interest_sex">관심 성별을 입력하세요.</string>
+    <string name="error_unavailable">상대방이 영상채팅을 할 수 없는 상태입니다.</string>
+    <string name="error_other">다시 시도하십시오</string>
+    <string name="error_no_matching">매칭하기 적합한 상대가 없습니다. 지역과 성별을 조정하시고 다시 하십시오</string>
+
+    <string name="error_no_agree_policy">서비스 이용약관을 동의하세요.</string>
+    <string name="error_no_agree_privacy">개인정보처리방침에 동의하세요.</string>
+    <string name="error_not_match_IDPW">아이디/비밀번호가 일치하지 않습니다.</string>
+    <string name="error_upload_image">사진 업로드에 실패하였습니다.</string>
+    <string name="error_exist_id">이미 사용중인 아이디입니다.</string>
+    <string name="error_exist_alias">이미 사용중인 닉네임입니다.</string>
+    <string name="error_no_phone">전화번호를 입력하십시오.</string>
+    <string name="error_add_friend">친구 등록과정에서 에러가 발생하였습니다.</string>
+    <string name="success_buy">결제가 성공적으로 이루어졌습니다.</string>
+
+    <string name="login_success">로그인에 성공하였습니다.</string>
+    <string name="update_success">회원 정보 변경에 성공하였습니다.</string>
+    <string name="login_fail">아이디나 패스워드를 정확히 입력하십시오.</string>
+    <string name="can_use_ID">사용 가능한 아이디입니다.</string>
+    <string name="can_use_alias">사용 가능한 닉네임입니다.</string>
+    <string name="success_reg">회원가입 성공하였습니다.</string>
+    <string name="nick_name_enter">닉네임 입력</string>
+    <string name="nick_name_info">보고싶은 친구의 닉네임을 입력해보세요</string>
+    <string name="success_add_like">좋아요를 하였습니다</string>
+    <string name="alread_add_like">이미 좋아요를 한 친구입니다.</string>
+    <string name="error_add_like">좋아요를 하는 과정에서 에러가 발생하였습니다.</string>
+    <string name="success_reject">영상통화를 거부하였습니다.</string>
+    <string name="error_reject">영상채팅 거부 중 에러가 발생하였습니다.</string>
+
+    <string name="user_guide">팝챗 이용방법</string>
+    <string name="caution">팝챗 주의사항</string>
+    <string name="pangchat_request">영상채팅요청</string>
+
+    <string name="pangchat_request_msg">님이 영상채팅을 요청하였습니다</string>
+    <string name="call_guide"> 는 익명의 이성과 통화할 수 있는 서비스입니다.</string>
+    <string name="call_start">전화 걸기</string>
+    <string name="call_guide_detail_header">
+        꼭 읽어보세요!!
+    </string>
+    <string name="call_guide_detail">
+
+        01. 통신사 요금제에서 제공되는 부가전화 무료통화내에서 이용하시면 100% 무료로 이용하실 수 있습니다.
+        \n\n
+        02. 부가전화 무료통화를 모두 사용하셨더라도 기본 통화료 외에 별도의 정보이용료가 전혀 발생하지 않습니다.
+    </string>
+
+    <string name="call_guide_detail2">
+        01. 램덤으로 선정된 새로운 이성과 통화할 수 있는 서비스입니다.
+    </string>
+    <string name="call_guide_detail2_1">02. 정보이용료가 부가되지 않는 </string>
+    <string name="call_guide_detail2_2">무료서비스</string>
+    <string name="call_guide_detail2_3">입니다</string>
+
+    <string name="call_guide_detail3">
+
+        01. 램덤으로 선정된 새로운 이성과 통화할 수 있는 서비스입니다.
+        \n\n
+        02. 정보이용료가 부가되지 않는 무료서비스 입니다.
+    </string>
+
+
+    <string name="user_guide_detail">
+        01. 회원가입은 우측 상단에 있는 메뉴를 클릭하시고 회원 가입 메뉴를 이용해 주세요.
+        \n\n
+        02. 회원가입시 닉네임은 이름을 기입해도 되고 별명을 기입해도 되며, 사전 등록은 필수 입니다.
+        \n\n
+        03. 첫 화면에서 손모양 아이콘을 넘기면 매칭이 가능합니다.
+        \n\n
+        상단에 있는 멤버를 누르면 팝챗의 회원 분들을 볼 수 있으며,
+        마음에 드는 회원분에게 1:1 채팅 신청이 가능합니다.
+    </string>
+
+    <string name="caution_detail">
+        채팅시 주의 사항은 다음과 같습니다.
+        \n\n
+        01. 상대의 거부 의사가 있음에도 불구하고 상대를 귀찮게 하는 것
+        \n\n
+        02상대에게 욕을 하거나 음란한 행동을 하여 상대를 불쾌하게 하는 것
+        \n\n
+        03.본인의 프로필에 선정적인 사진을 업로드하거나 닉네임에 선정적인 단어를 기입하는 것
+        \n\n
+        04. 이외에 어떠한 방법으로 팝챗의 회원분들에게 불쾌감을 조성하는 것
+        \n\n
+        위 주의 사항을 따르지 않을 시에는 추방 조치되니, 꼭 지켜주시기 바랍니다.
+    </string>
+
+    <string name="current_version">현재 버전</string>
+
+    <string name="update_app">최신버전 업데이트</string>
+    <string name="update">업데이트</string>
+    <string name="last_version">최신버전입니다.</string>
+    <string name="gcm_no_reg">상대방은 통화할 수 없는 상태입니다.</string>
+    <string name="need_update">새로운 버전이 출시되었습니다.
+        \n
+        업데이트 해주세요.
+    </string>
+
+    <string name="logout_caution">로그아웃 하시겠습니까?</string>
+
+    <string name="search_ID_desc">ID찾기: 회원가입시 등록한 폰번호를 입력하세요</string>
+    <string name="search_ID_hint">01012345678 형태로 입력</string>
+
+    <string name="search_PW_desc">PW찾기: 회원가입시 등록한 아읻와 폰번호를 입력하세요</string>
+    <string name="withdraw_success">회원 탈퇴에 성공하였습니다.</string>
+    <string name="withdraw_fail">회원 탈퇴 중 오류가 발생하였습니다.</string>
+    <string name="search_ID_result">고객님의 아이디는</string>
+    <string name="search_PW_result">고객님의 비밀번호는</string>
+    <string name="error_search_PW_no_ID">아이디가 없습니다. 다시 입력하십시오.</string>
+    <string name="error_search_PW_not_match">일치하는 아이디나 전화번호가 없습니다.</string>
+    <string name="error_search_ID_not_match">일치하는 전화번호가 없습니다.</string>
+    <string name="search_ID_result_end"> 입니다.</string>
+    <string name="search_PW_result_end"> 입니다.</string>
+    <string name="no_user">해당 사용자가 없습니다.</string>
+    <string name="expired">사용기간이 만료되었습니다.</string>
+
+    <string name="profile_is">님은</string>
+    <string name="profile_interest">에 관심있어요</string>
+    <string name="profile_object">과</string>
+    <string name="one_to_one">1:1 채팅</string>
+    <string name="add_friend">친구 추가</string>
+
+    <string name="interest">관심(나이,성별)</string>
+    <string name="interest_sub">관심주제</string>
+
+    <string name="_10s">10대</string>
+    <string name="_20s">20대</string>
+    <string name="_30s">30대</string>
+    <string name="_40s">40대</string>
+    <string name="_50s">50대</string>
+
+    <string name="nation">나라</string>
+    <string name="korea">대한민국</string>
+    <string name="japan">일본</string>
+
+
+    <string name="Kamakura">가마쿠라</string>
+    <string name="Kobe">고베</string>
+    <string name="Nagoya">나고야</string>
+    <string name="Nara">나라</string>
+    <string name="Niikata">니카타</string>
+    <string name="Nikko">닛코</string>
+    <string name="Tokyo">토쿄</string>
+    <string name="Sapporo">삿포로</string>
+    <string name="Osaka">오사카</string>
+    <string name="Yokohama">요코하마</string>
+    <string name="Hakone">하코네</string>
+    <string name="Fukuoka">후쿠오카</string>
+    <string name="Hiroshima">히로시마</string>
+    <string name="Himeji">히메지</string>
+    <string name="Kagawa_ken">가가와현</string>
+    <string name="Kagoshima_Prefecture">가고시마현</string>
+    <string name="Kanagawa_ken">가나가와현</string>
+    <string name="Kochiken">고치현</string>
+    <string name="Kyoto_Prefecture">교토부</string>
+    <string name="Kumamoto_ken">구마모토현</string>
+    <string name="Gunma_ken">군마현</string>
+    <string name="Gifu_ken">기후현</string>
+    <string name="Nagano_ken">나가노현</string>
+    <string name="Nagasaki_ken">나가사키현</string>
+    <string name="Nara_Prefecture">나라현</string>
+    <string name="Niigata_ken">니가타현</string>
+    <string name="Toyama_ken">도야마현</string>
+    <string name="Tochigi_ken">도치기현</string>
+    <string name="Tokushima_ken">도쿠시마현</string>
+    <string name="Tottori_ken">돗토리현</string>
+    <string name="Miyagi_ken">미야기현</string>
+    <string name="Miyazaki_ken">미야자키현</string>
+    <string name="Mie">미에현</string>
+    <string name="Saga_ken">사가현</string>
+    <string name="Saitama_ken">사이타마현</string>
+    <string name="Shiga">시가현</string>
+    <string name="Shimane_ken">시마네현</string>
+    <string name="Shizuoka_ken">시즈오카현</string>
+    <string name="Aomori_ken">아오모리현</string>
+    <string name="Aichi_ken">아이치현</string>
+    <string name="Akita_ken">아키타현</string>
+    <string name="Yamagata_ken">야마가타현</string>
+    <string name="Yamaguchi_ken">야마구치현</string>
+    <string name="Yamanashi_ken">야마나시현</string>
+    <string name="Ehime_ken">에히메현</string>
+    <string name="OsakaPrefecture">오사카부</string>
+    <string name="Ōita_ken">오이타현</string>
+    <string name="okayama_ken">오카야마현</string>
+    <string name="Okinawa_ken">오키나와현</string>
+    <string name="waka_ken">와카야미현</string>
+    <string name="Ibaraki_ken">이바라키현</string>
+    <string name="Ishikawa_ken">이시카와현</string>
+    <string name="Iwate_ken">이와테현</string>
+    <string name="Chiba_ken">지바현</string>
+    <string name="hokkaido">훗카이도</string>
+    <string name="Hyogo">효고현</string>
+    <string name="Fukushima_ken">후쿠시마현</string>
+    <string name="Fukuoka_ken">후쿠오카현</string>
+    <string name="Fukui_Prefecture">후쿠이현</string>
+    <string name="Hiroshima_ken">히로시마현</string>
+
+    <string name="seoul">서울</string><!-- 0 -->
+    <string name="pusan">부산</string><!-- 1 -->
+    <string name="kangju">광주</string><!-- 2 -->
+    <string name="kyunggi">경기</string><!-- 3 -->
+    <string name="incheon">인천</string><!-- 4 -->
+    <string name="chongchung">충청</string><!-- 5 -->
+    <string name="daejun">대전</string><!-- 6 -->
+    <string name="gangwon">강원</string><!-- 7 -->
+    <string name="jeolla">전라</string><!-- 8 -->
+    <string name="kyungsang">경상</string><!-- 9 -->
+    <string name="deagu">대구</string><!-- 10 -->
+    <string name="ulsan">울산</string><!-- 11 -->
+    <string name="jeju">제주</string><!-- 12 -->
+
+    <string name="offUser">사용자는 Off 중입니다.</string>
+
+    <string name="close_alert_title">알림</string>
+    <string name="close_alert_message">정말로 종료하시겠습니까</string>
+    <string name="ok">예</string>
+    <string name="no">아니요</string>
+    <string name="alertWaiting">상대방으로부터 응답을 받기까지 30초에서 \n최장 1분정도 소요될 수 있습니다. \n화면 캡쳐 방지 기능이 있으니 안심하고 이용하십시오</string>
+    <string name="key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh8Zg1FD33FQyzx8RaxQ1bFRLmhGhzPytZk8RQfyYBFC4S2oB3MuEwxuMIsxzAvCvFf0EHRS6PIRIZwqsEQPlBHEr2ztOi8jFQ8/pxuWLhJxg6zo+dY+Rtew6CdlT2QMQ0weNkMhLE4zdI/esgULRnR5PlvgAPM/ZgP4SSCOwE6SPqQ4oeIqUfXR49xSQSFImw44kldsKxX2PTU/GZBuelXybUdDjiiv8GHLkGzVGI1xO7DcNitx98C4BsyhVfkrBi+f4iNhGWqIn6CuyDg0IZeTwEv39gQx4zmA19mgsutjMPskP6DujfJj81jN5vUWBD+0xD8/8hyi8CbcZ0mI/FQIDAQAB</string>
+</resources>
